@@ -8,6 +8,7 @@ export const getNote = /* GraphQL */ `
       name
       description
       image
+      username
       createdAt
       updatedAt
     }
@@ -25,6 +26,7 @@ export const listNotes = /* GraphQL */ `
         name
         description
         image
+        username
         createdAt
         updatedAt
       }
@@ -32,3 +34,21 @@ export const listNotes = /* GraphQL */ `
     }
   }
 `;
+
+export const listNotesForUser = /* GraphQL */ `
+  query ListNotesForUser ($username: ModelStringInput = {}) {
+  listNotes(filter: {username: $username}) {
+    items {
+        id
+        name
+        description
+        image
+        username
+        createdAt
+        updatedAt
+    }
+  }
+}
+`;
+
+
