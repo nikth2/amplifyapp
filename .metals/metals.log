@@ -1,0 +1,12 @@
+[0m2021.05.29 08:10:56 INFO  Started: Metals version 0.10.3 in workspace 'D:\my_projects\git_repo\amplifyapp' for client Visual Studio Code 1.56.2.[0m
+[0m2021.05.29 08:11:12 INFO  time: initialize in 15s[0m
+[0m2021.05.29 08:11:12 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.29 08:11:12 WARN  no build tool detected in workspace 'D:\my_projects\git_repo\amplifyapp'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.29 09:48:20 INFO  shutting down Metals[0m
+[0m2021.06.01 21:08:07 INFO  Started: Metals version 0.10.4 in workspace 'D:\my_projects\git_repo\amplifyapp' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.01 21:08:17 INFO  time: initialize in 9.96s[0m
+[0m2021.06.01 21:08:17 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.01 21:08:17 WARN  no build tool detected in workspace 'D:\my_projects\git_repo\amplifyapp'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+Ιουν 01, 2021 9:50:58 Μ.Μ. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.06.01 22:47:52 INFO  shutting down Metals[0m
